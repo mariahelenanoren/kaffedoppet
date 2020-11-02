@@ -5,4 +5,4 @@ A modernisation of the website kaffedoppet.se. The two pages which we have devel
 
 By Maria Helena Norén och Lisa Pääjärvi.
 
-Live [demo]().
+Live [demo](https://mariahelenanoren.github.io/kaffedoppet/).
