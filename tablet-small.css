@@ -1,0 +1,45 @@
+/* TABLET SMALL, max-width: 768px */
+
+.container {
+    grid-template-rows: 6rem 1fr 10rem;
+}
+
+/* HEADER */
+
+header {
+    height: 6rem;
+    padding: 1rem 3rem;
+}
+
+.tablet-menu-bar {
+    display: none;
+}
+
+.header-logo {
+    justify-content: space-between;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.logo {
+    padding: 0;
+}
+
+.mobile-menu i {
+    font-size: 2rem;
+    padding: 0;
+}
+
+.mobile-hidden-icon i {
+    font-size: 2rem;
+    padding: 0;
+}
+
+.mobile-menu {
+    display: block;
+}
+
+.mobile-hidden-icon {
+    display: block;
+    visibility: hidden;
+}

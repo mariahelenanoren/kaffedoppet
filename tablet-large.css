@@ -1,0 +1,29 @@
+/* TABLET LARGE, max-width: 1024px */
+
+.container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8rem 1fr 10rem;
+    grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer"
+    ;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SIDEBAR */
+
+aside {
+    grid-area: sidebar;
+    display: none!important;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5fe505aff9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="tablet-large.css" media="(max-width: 1024px)">
+    <link rel="stylesheet" href="tablet-small.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 480px)">
+    <title>Kaffedoppet</title>
+</head>
+<body class="flex">
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="box-shadow">
+            <div class="header-logo flex">
+                <div class="mobile-hidden-icon">
+                    <i class="fas fa-bars fa-3x padding-x2"></i>
+                </div>
+                <img src="assets/kaffedoppet-logo.svg" class="logo">
+                <div class="mobile-menu">
+                    <i class="fas fa-bars fa-3x padding-x2"></i>
+                </div>
+            </div>
+            <div class="tablet-menu-bar">
+                <div class="tablet-hidden-icon">
+                    <i class="fab fa-facebook-square padding"></i>
+                    <i class="fab fa-instagram-square padding"></i>
+                </div>
+                <ul class="tablet-menu flex">
+                    <a href="./index.html"><li>Hem</li></a>
+                    <li>Sortiment</li>
+                    <li>Bilder</li>
+                    <a href="./contact.html" class="active"><li>Kontakt</li></a>
+                </ul>
+                <div class="social">
+                    <i class="fab fa-facebook-square fa-2x padding"></i>
+                    <i class="fab fa-instagram-square fa-2x padding"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- SIDEBAR -->
+        <aside class="flex column justify-between box-shadow">
+            <nav>
+                <img src="assets/kaffedoppet-logo.svg">
+                <ul class="sidebar-list">
+                    <a href="index.html"><li class="sidebar-list-item border-bottom">Hem</li></a> 
+                    <li class="sidebar-list-item border-bottom">Sortiment</li>
+                    <li class="sidebar-list-item border-bottom">Bilder</li>
+                    <a href="./contact.html" class="active"><li class="sidebar-list-item border-bottom active">Kontakt</li></a>              
+                </ul>
+            </nav>
+
+            <!--SOCIAL LINKS-->
+            <div class="social flex">
+                <i class="fab fa-facebook-square padding"></i>
+                <i class="fab fa-instagram-square padding"></i>
+            </div>
+        </aside>
+
+        <!-- MAIN -->
+        <main class="flex column center">
+            
+            <!-- HERO -->
+            <div class="hero flex center">
+                <img src="assets/kaffedoppet-logo-white-large.svg">
+            </div>
+
+            <!-- CONTACT FORM -->
+            <form class="contact-form flex column center">
+                <h3>Kontakta oss</h3>
+
+                <div class="input-row">
+                    <div class="contact-input">
+                        <p>Namn</p>
+                        <label for="name"></label>
+                        <input class="rounded" type="text" name="name" id="name" required>
+                    </div>
+
+                    <div class="contact-input">
+                        <p>E-post</p>
+                        <label for="email"></label>
+                        <input class="rounded" type="email" name="email" id="email" required>
+                    </div>
+                </div>  
+                
+                <div class="contact-input">
+                    <p>Ämne</p>
+                    <label for="subject"></label>
+                    <input class="rounded" type="text" name="subject" id="subject">
+                </div>
+
+                <div class="contact-input">
+                    <p>Meddelande</p>
+                    <label for="message"></label>
+                    <textarea class="message-input rounded" type="text" name="message" id="message" required></textarea>
+                </div>
+                
+                <div class="contact-input">
+                    <label for="submit"></label>
+                    <button class="submit-button primary rounded" type="submit" name="submit" id="submit">Skicka in</button>
+                </div>
+            </form>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="flex center column">
+            <p class="flex center border-bottom">Obs! Tårtbeställningar sker enbart via telefon.<br>
+                Men skicka gärna in bilder via mail till bildtårtor.</p>
+            <p class="flex center">Kaffedoppet &copy 2020</p>
+        </footer>
+    </div>
+</body>
+</html>

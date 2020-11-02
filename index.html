@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5fe505aff9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="tablet-large.css" media="(max-width: 1024px)">
+    <link rel="stylesheet" href="tablet-small.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 480px)">
+    <title>Kaffedoppet</title>
+</head>
+<body class="flex">
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="box-shadow">
+            <div class="header-logo flex">
+                <div class="mobile-hidden-icon">
+                    <i class="fas fa-bars fa-3x padding-x2"></i>
+                </div>
+                <img src="assets/kaffedoppet-logo.svg" class="logo">
+                <div class="mobile-menu">
+                    <i class="fas fa-bars fa-3x padding-x2"></i>
+                </div>
+            </div>
+            <div class="tablet-menu-bar">
+                <div class="tablet-hidden-icon">
+                    <i class="fab fa-facebook-square padding"></i>
+                    <i class="fab fa-instagram-square padding"></i>
+                </div>
+                <ul class="tablet-menu flex">
+                    <a href="./index.html" class="active"><li>Hem</li></a>
+                    <li>Sortiment</li>
+                    <li>Bilder</li>
+                    <a href="./contact.html"><li>Kontakt</li></a>
+                </ul>
+                <div class="social">
+                    <i class="fab fa-facebook-square fa-2x padding"></i>
+                    <i class="fab fa-instagram-square fa-2x padding"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- SIDEBAR -->
+        <aside class="flex column justify-between box-shadow">
+            <nav>
+                <img src="assets/kaffedoppet-logo.svg">
+                <ul class="sidebar-list">
+                    <a href="./index.html" class="active"><li class="sidebar-list-item border-bottom active">Hem</li></a>
+                    <li class="sidebar-list-item border-bottom">Sortiment</li>
+                    <li class="sidebar-list-item border-bottom">Bilder</li>
+                    <a href="./contact.html"><li class="sidebar-list-item border-bottom">Kontakt</li></a>                
+                </ul>
+            </nav>
+
+            <!-- SOCIAL LINKS -->
+            <div class="social flex">
+                <i class="fab fa-facebook-square fa-2x padding"></i>
+                <i class="fab fa-instagram-square fa-2x padding"></i>
+            </div>
+        </aside>
+
+        <!-- MAIN -->
+        <main class="flex column main center">
+
+            <!-- HERO -->
+            <div class="hero flex center">
+                <img class="hero-fade-in" src="assets/kaffedoppet-logo-white-large.svg">
+            </div>
+
+            <!-- CONTENT BOXES -->
+            <div class="inner-main grid">
+                <div class="square flex center primary">
+                    <p class="flex justify-center align-center">
+                        Öppettider:<br>
+                        Mån-Tor: 08:00 - 20:00<br>
+                        Fredag:  08:00 - 19:00<br>
+                        Lördag:  08:00 - 16:30<br>
+                        Söndag: 10:00 - 16:00</p>
+                </div>
+
+                <div class="square flex box-shadow" style="background-image: url(assets/coffee.jpg);">
+                </div>
+                
+                <div class="square box-shadow" style="background-image: url(assets/chocolate.jpg);">
+                </div>
+
+                <div class="square flex center primary">
+                    <p>Kaffedoppet<br>
+                        Järnvägstorget,<br>
+                        452 31 Strömstad<br>
+                        Telefon: 0526-101 15</p>
+                </div>
+
+            </div>
+        
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="flex center column">
+            <p class="flex center border-bottom">Obs! Tårtbeställningar sker enbart via telefon.<br>
+                Men skicka gärna in bilder via mail till bildtårtor.</p>
+            <p class="flex center">Kaffedoppet &copy 2020</p>
+        </footer>
+    </div>
+</body>
+</html>

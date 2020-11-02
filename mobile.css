@@ -1,0 +1,38 @@
+/* MOBILE, max-width: 480px */
+
+/* HEADER */
+
+.hero {
+    height: 15rem;
+}
+
+.hero img {
+    width: 95%;
+    opacity: 0.7;
+}
+
+/* MAIN */
+
+.square {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
+
+.logo {
+    max-height: 60%;
+}
+
+.contact-form {
+    padding: 4rem 3rem;
+}
+
+.input-row {
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+footer p {
+    font-size: 0.8rem;
+    padding: 1.5rem 0.5rem;
+}
